@@ -340,4 +340,127 @@ body {
     border-radius: 20px;
     margin-top: 40px;
   }
+  #footer .footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+    width: 834px;
+    height: 703px;
+    padding: 40px 195px;
+    gap: 49px;
+  }
+  #footer .footer__up {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 30px;
+    width: 690px;
+    height: 541px;
+  }
+  #footer .footer__up__left {
+    display: flex;
+    flex-direction: column;
+    width: 690px;
+    height: 163px;
+    gap: 20px;
+  }
+  #footer .footer__up__left__logo {
+    width: 243.41px;
+    height: 32px;
+  }
+  #footer .footer__up__left__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 690px;
+    height: 111px;
+  }
+  #footer .footer__up__left__info p {
+    width: 690px;
+    height: 22px;
+  }
+  #footer .footer__up__left__info__community {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 690px;
+    height: 69px;
+  }
+  #footer .footer__up__left__info__community p {
+    width: 690px;
+    height: 22px;
+  }
+  #footer .footer__up__left__info__community__icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 158px;
+    height: 32px;
+  }
+  #footer .footer__up__middle {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 690px;
+    height: 161px;
+  }
+  #footer .footer__up__middle__title {
+    width: 690px;
+    height: 35px;
+  }
+  #footer .footer__up__middle__body {
+    width: 690px;
+    height: 106px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  #footer .footer__up__right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 690px;
+    height: 157px;
+  }
+  #footer .footer__up__right__title {
+    width: 690px;
+    height: 35px;
+  }
+  #footer .footer__up__right__body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 690px;
+    height: 102px;
+  }
+  #footer .footer__up__right__body p {
+    width: 690px;
+    height: 22px;
+  }
+  #footer .footer__up__right__body button {
+    width: 179px;
+    height: 60px;
+    left: 241px;
+  }
+  #footer .footer__up__right__body input {
+    width: 420px;
+    height: 60px;
+    padding: 16px 0px 16px 20px;
+  }
+  #footer .footer__down {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 690px;
+    height: 33px;
+  }
+  #footer .footer__down hr {
+    width: 690px;
+    height: 0px;
+  }
+  #footer .footer__down p {
+    width: 690px;
+    height: 13px;
+  }
 }
