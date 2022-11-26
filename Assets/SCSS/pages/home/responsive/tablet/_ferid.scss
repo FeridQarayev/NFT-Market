@@ -1,0 +1,82 @@
+@media only screen and (max-width: 835px) {
+    #footer{
+        width: 834px;
+        @include centerX;
+        background-color: aqua;
+        .subscribe{
+            @include center;
+            width: 834px;
+            height: 480px;
+            padding: 40px 0px 80px;
+            background-color: #2B2B2B;
+            &__card{
+                @include center;
+                flex-direction: row;
+                width: 690px;
+                height: 360px;
+                padding: 40px 30px;
+                gap: 30px;
+                background-color: #3B3B3B;
+                border-radius: 20px;
+                &__left{
+                    border-radius: 20px;
+                    width: 300px;
+                    height: 280px;
+                    &__img{
+                        display: none;
+                    }
+                    &__tableimg{
+                        width: 300px;
+                        height: 280px;
+                        display: block;
+                    }
+                }
+                &__right{
+                    display: flex;
+                    flex-direction: column;
+                    width: 300px;
+                    height: 280px;
+                    color: #FFFFFF;
+                    &__title{
+                        width: 300px;
+                        height: 78px;
+                        font-weight: 600;
+                        font-size: 28px;
+                        line-height: 140%;
+                        font-family: $font;
+                        text-transform: capitalize;
+                    }
+                    &__subtitle{
+                        margin-top: 10px;
+                        width: 300px;
+                        height: 44px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 140%;
+                        font-family: $font;
+                    }
+                    button{
+                        position: absolute;
+                        width: 300px;
+                        height: 46px;
+                        padding: 0px 50px;
+                        @include center;
+                    }
+                    input{
+                        padding: 16px 20px;
+                        gap: 12px;
+                        width: 300px;
+                        height: 46px;
+                        background-color: #FFFFFF;
+                        border: 1px solid #858584;
+                        border-radius: 20px;
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+  }

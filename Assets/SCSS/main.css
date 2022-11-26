@@ -38,6 +38,9 @@ body {
   width: 425px;
   height: 310px;
 }
+#footer .subscribe__card__left__tableimg {
+  display: none;
+}
 #footer .subscribe__card__right {
   display: flex;
   flex-direction: column;
@@ -81,6 +84,11 @@ body {
   font-size: 16px;
   bottom: 0px;
   right: 0px;
+  transition: all 0.3s ease;
+}
+#footer .subscribe__card__right button:hover {
+  transform: scale(0.95);
+  cursor: pointer;
 }
 #footer .subscribe__card__right input {
   margin-top: 40px;
@@ -213,6 +221,11 @@ body {
   right: 0px;
   bottom: 0px;
   color: #FFFFFF;
+  transition: all 0.3s ease;
+}
+#footer .footer__up__right__body button:hover {
+  transform: scale(0.95);
+  cursor: pointer;
 }
 #footer .footer__up__right__body input {
   width: 420px;
@@ -240,4 +253,91 @@ body {
   font-size: 12px;
   line-height: 110%;
   color: #CCCCCC;
+}
+
+@media only screen and (max-width: 835px) {
+  #footer {
+    width: 834px;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+  }
+  #footer .subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 834px;
+    height: 480px;
+    padding: 40px 0px 80px;
+    background-color: #2B2B2B;
+  }
+  #footer .subscribe__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 690px;
+    height: 360px;
+    padding: 40px 30px;
+    gap: 30px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+  }
+  #footer .subscribe__card__left {
+    border-radius: 20px;
+    width: 300px;
+    height: 280px;
+  }
+  #footer .subscribe__card__left__img {
+    display: none;
+  }
+  #footer .subscribe__card__left__tableimg {
+    width: 300px;
+    height: 280px;
+    display: block;
+  }
+  #footer .subscribe__card__right {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 280px;
+    color: #FFFFFF;
+  }
+  #footer .subscribe__card__right__title {
+    width: 300px;
+    height: 78px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    font-family: "Work Sans", sans-serif;
+    text-transform: capitalize;
+  }
+  #footer .subscribe__card__right__subtitle {
+    margin-top: 10px;
+    width: 300px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    font-family: "Work Sans", sans-serif;
+  }
+  #footer .subscribe__card__right button {
+    position: absolute;
+    width: 300px;
+    height: 46px;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #footer .subscribe__card__right input {
+    padding: 16px 20px;
+    gap: 12px;
+    width: 300px;
+    height: 46px;
+    background-color: #FFFFFF;
+    border: 1px solid #858584;
+    border-radius: 20px;
+    margin-top: 40px;
+  }
 }
