@@ -7,3 +7,45 @@
 body {
   background-color: #2B2B2B;
 }
+
+#header #navbar {
+  width: 100%;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header #navbar .navbar__left {
+  display: flex;
+  align-items: center;
+  padding: 14px 0px;
+}
+#header #navbar .navbar__right a {
+  font-family: "Work Sans", sans-serif;
+  gap: 12px;
+  padding: 0px 20px;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 10px;
+}
+#header #navbar .navbar__right button {
+  background-color: #A259FF;
+  padding: 0px 30px;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+}
+#header #navbar .navbar__right button div {
+  display: flex;
+  align-items: center;
+}
+#header #navbar .navbar__right button div img {
+  margin-right: 12px;
+}
