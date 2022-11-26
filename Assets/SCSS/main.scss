@@ -1,0 +1,17 @@
+@import './abstracts/variables', './abstracts/mixins';
+
+@import './vendors/reset';
+
+// Home
+@import './pages/home/ali', './pages/home/anar', './pages/home/bahadir', './pages/home/ferid';
+
+@import './pages/home/responsive/tablet/ali', './pages/home/responsive/tablet/anar', './pages/home/responsive/tablet/bahadir', './pages/home/responsive/tablet/ferid';
+
+@import './pages/home/responsive/telephone/ali', './pages/home/responsive/telephone/anar', './pages/home/responsive/telephone/bahadir', './pages/home/responsive/telephone/ferid';
+
+// Artist
+@import './pages/artist/ali','./pages/artist/anar','./pages/artist/bahadir','./pages/artist/ferid';
+
+@import './pages/artist/responsive/tablet/ali', './pages/artist/responsive/tablet/anar', './pages/artist/responsive/tablet/bahadir', './pages/artist/responsive/tablet/ferid';
+
+@import './pages/artist/responsive/telephone/ali', './pages/artist/responsive/telephone/anar', './pages/artist/responsive/telephone/bahadir', './pages/artist/responsive/telephone/ferid';
