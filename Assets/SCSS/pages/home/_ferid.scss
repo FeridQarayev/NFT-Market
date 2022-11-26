@@ -1,3 +1,77 @@
 #footer{
+    @include centerX;
+    height: 1000px;
+    width: 100%;
+    background-color: bisque;
+    .subscribe{
+        margin-top: 80px;
+        &__card{
+            display: flex;
+            flex-direction: row;
+            background-color: #3B3B3B;
+            width: 1050px;
+            height: 430px;
+            border-radius: 20px;
+            padding: 60px;
+            gap: 80px;
+            &__left{
+                border-radius: 20px;
+                width: 425px;
+                height: 310px;
+            }
+            &__right{
+                display: flex;
+                flex-direction: column;
+                color: white;
+                position: relative;
+                width: 425px;
+                height: 272px;
+                &__title{
+                    width: 425px;
+                    height: 92px;
+                    font-family: $font;
+                    font-weight: 600;
+                    font-size: 38px;
+                    line-height: 120%;
+                    text-transform: capitalize;
+                }
+                &__subtitle{
+                    margin-top: 10px;
+                    width: 425px;
+                    height: 70px;
+                    font-family: $font;
+                    font-weight: 400;
+                    font-size: 22px;
+                    text-transform: capitalize;
+                }
+                button{
+                    color: white;
+                    font-family: $font;
+                    position: absolute;
+                    @include centerY;
+                    padding: 0px 50px;
+                    gap: 12px;
+                    width: 211px;
+                    height: 60px;
+                    background-color: #A259FF;
+                    border-radius: 20px;
+                    border: none;
+                    font-weight: 600;
+                    font-size: 16px;
+                    bottom: 0px;
+                    right: 0px;
+                }
+                input{
+                    margin-top: 40px;
+                    border-radius: 20px;
+                    width: 425px;
+                    height: 60px;
+                    padding: 16px 0px 16px 20px;
+                    border: none;
+                }
+            }
+        }
+    }
+
     
 }
