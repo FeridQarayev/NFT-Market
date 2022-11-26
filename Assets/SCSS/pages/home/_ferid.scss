@@ -1,10 +1,15 @@
 #footer{
-    @include centerX;
-    height: 1000px;
+    @include centerY;
+    flex-direction: column;
+    // height: 1280px;
     width: 100%;
-    background-color: bisque;
+    // background-color: bisque;
     .subscribe{
+        background-color: #2B2B2B;
         margin-top: 80px;
+        width: 1280px;
+        height: 550px;
+        @include center;
         &__card{
             display: flex;
             flex-direction: row;
@@ -72,6 +77,159 @@
             }
         }
     }
+    .footer{
+        @include centerY;
+        margin-top: 40px;
+        flex-direction: column;
+        width: 1280px;
+        height: 334px;
+        background-color: #3B3B3B;
+        padding: 40px 195px;
+        display: flex;
+        gap: 30px;
+        &__up{
+            width: 1049.41px;
+            height: 191px;
+            @include between;
+            padding: 0px;
+            gap: 31px;
+            flex-direction: row;
+            &__left{
+                display: flex;
+                flex-direction: column;
+                width: 327.41px;
+                height: 191px;
+                gap: 30px;
+                &__logo{
+                    width: 243.41px;
+                    height: 32px;
+                }
+                &__info{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    width: 238px;
+                    height: 129px;
+                    color: #CCCCCC;
+                    p{
+                        font-weight: 400;
+                        font-size: 16px;
+                        font-family: $font;
+                        width: 238px;
+                        height: 44px;
+                    }
+                    &__community{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+                        width: 238px;
+                        height: 65px;
+                        p{
+                            font-weight: 400;
+                            font-size: 16px;
+                            font-family: $font;
+                        }
+                        &__icons{
 
+                        }
+                    }
+                }
+            }
+            &__middle{
+                display: flex;
+                flex-direction: column;
+                width: 240px;
+                height: 166px;
+                gap: 25px;
+                &__title{
+                    color: #FFFFFF;
+                    font-weight: 700;
+                    font-size: 22px;
+                    font-family: $font;
+                }
+                &__body{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    color: #CCCCCC;
+                    font-weight: 400;
+                    font-size: 16px;
+                    font-family: $font;
+                }
+            }
+            &__right{
+                display: flex;
+                flex-direction: column;
+                width: 420px;
+                height: 184px;
+                gap:25px;
+                padding: 0px;
+                &__title{
+                    p{
+                        color: #FFFFFF;
+                        font-weight: 700;
+                        font-family: $font;
+                        font-size: 22px;
+                        text-transform: capitalize;
+                    }
+                }
+                &__body{
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0px;
+                    gap:20px;
+                    width: 420px;
+                    height: 124px;
+                    p{
+                        font-weight: 400;
+                        font-size: 16px;
+                        font-family: $font;
+                        color: #CCCCCC;
+                        line-height: 140%;
+                    }
+                    button{
+                        width: 179px;
+                        height: 60px;
+                        position: absolute;
+                        background-color: #A259FF;
+                        border-radius: 20px;
+                        padding: 0px 50px;
+                        border: none;
+                        right: 0px;
+                        bottom: 0px;
+                        color: #FFFFFF;
+                    }
+                    input{
+                        width: 420px;
+                        height: 60px;
+                        padding: 16px 0px 16px 20px;
+                        background-color: #FFFFFF;
+                        border-radius: 20px;
+                        border: none;
+                    }
+                }
+            }
+        }
+        &__down{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 1049.41px;
+            height: 33px;
+            hr{
+                width: 1049.41px;
+                height: 0px;
+                border: 1px solid #858584;
+            }
+            p{
+                font-family: $font;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 110%;
+                color: #CCCCCC;
+            }
+        }
+    }
     
 }
