@@ -11,11 +11,11 @@
 
         .navbar__left {
             display: flex;
-            align-items: center ;
+            align-items: center;
             padding: 14px 0px;
 
-            img{
-                &:hover{
+            img {
+                &:hover {
                     cursor: pointer;
                 }
             }
@@ -36,12 +36,13 @@
                 font-weight: 600;
                 margin-right: 10px;
                 transition: all 0.3s ease;
-                &:hover{
+
+                &:hover {
                     transform: scale(0.95);
                 }
             }
 
-            button{
+            button {
                 background-color: #A259FF;
                 padding: 0px 30px;
                 border: none;
@@ -53,19 +54,161 @@
                 font-weight: 600;
                 font-family: $font;
                 transition: all 0.3s ease;
-                &:hover{
+
+                &:hover {
                     cursor: pointer;
                     transform: scale(0.95);
                 }
-                div{
+
+                div {
                     display: flex;
                     align-items: center;
 
-                    img{
+                    img {
                         margin-right: 12px;
                     }
                 }
             }
         }
     }
+
+    .container {
+        display: flex;
+        align-items: center;
+        width: 55%;
+        margin: auto;
+    }
+
+    #intro {
+        padding: 80px 0px;
+        gap: 30px;
+        display: flex;
+
+
+        .intro__left {
+            width: 510px;
+            height: 222px;
+
+            .intro__left__top {
+                & p:first-child {
+                    width: 100%;
+                    font-family: $font;
+                    font-size: 67px;
+                    font-weight: 600;
+                    color: white;
+                    line-height: 110%;
+
+                }
+
+                & p:last-child {
+                    margin-top: 20px;
+                    width: 100%;
+                    font-family: $font;
+                    font-size: 22px;
+                    font-weight: 400;
+                    color: white;
+                    line-height: 160%;
+                    text-transform: capitalize;
+
+                }
+            }
+        }
+
+        .intro__left__bottom__top {
+            button {
+                height: 60px;
+                // width: 224px;
+                padding: 0px 50px;
+                border-radius: 20px;
+                color: white;
+                background-color: #A259FF;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                font-family: $font;
+                gap: 12px;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 140%;
+                margin-top: 30px;
+                border: none;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    cursor: pointer;
+                    transform: scale(0.95);
+
+                }
+            }
+        }
+
+        .intro__left__bottom__bottom {
+            margin-top: 30px;
+            gap: 70px;
+            display: flex;
+            align-items: flex-start;
+
+            .intro__left__bottom__bottom__item {
+                p {
+                    font-family: 'Space Mono', monospace;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 28px;
+                    line-height: 140%;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    text-transform: capitalize;
+
+                }
+
+                & p:last-child {
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 160%;
+                    text-transform: capitalize;
+                }
+            }
+
+
+        }
+
+        .intro__right {
+            img {
+                width: 510px;
+                height: 510px;
+            }
+        }
+    }
+
+    .trending__text {
+        width: 1046px;
+        height: 91px;
+        margin-top: 100px;
+
+        h1 {
+            font-family: $font;
+            color: white;
+            font-weight: 600;
+            font-size: 38px;
+            line-height: 120%;
+            text-transform: capitalize;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-family: $font;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 160%;
+            text-transform: capitalize;
+            color: white;
+
+        }
+    }
+
+
 }
