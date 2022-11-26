@@ -173,3 +173,49 @@ body {
   text-transform: capitalize;
   color: white;
 }
+#header .trending__main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+#header .trending__main img {
+  transition: all 0.3s ease;
+}
+#header .trending__main img:hover {
+  transform: scale(0.95);
+  cursor: pointer;
+}
+#header .trending__main .trending__main__left__middle,
+#header .trending__main .trending__main__middle__middle,
+#header .trending__main .trending__main__right__middle {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+#header .trending__main .trending__main__left__bottom h1,
+#header .trending__main .trending__main__middle__bottom h1,
+#header .trending__main .trending__main__right__bottom h1 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: white;
+  margin-bottom: 10px;
+}
+#header .trending__main .trending__main__left__bottom div,
+#header .trending__main .trending__main__middle__bottom div,
+#header .trending__main .trending__main__right__bottom div {
+  display: flex;
+  align-items: center;
+}
+#header .trending__main .trending__main__left__bottom div span,
+#header .trending__main .trending__main__middle__bottom div span,
+#header .trending__main .trending__main__right__bottom div span {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: white;
+  margin-left: 12px;
+}

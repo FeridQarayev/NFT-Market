@@ -210,5 +210,55 @@
         }
     }
 
+    .trending__main {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
 
+        img {
+            transition: all 0.3s ease;
+
+            &:hover {
+                transform: scale(0.95);
+                cursor: pointer;
+            }
+        }
+
+
+        .trending__main__left__middle,
+        .trending__main__middle__middle,
+        .trending__main__right__middle {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px 0px;
+        }
+
+        .trending__main__left__bottom,
+        .trending__main__middle__bottom,
+        .trending__main__right__bottom {
+            h1 {
+                font-family: $font;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 140%;
+                text-transform: capitalize;
+                color: white;
+                margin-bottom: 10px;
+            }
+
+            div {
+                display: flex;
+                align-items: center;
+
+                span {
+                    font-family: $font;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 140%;
+                    color: white;
+                    margin-left: 12px;
+                }
+            }
+        }
+    }
 }
