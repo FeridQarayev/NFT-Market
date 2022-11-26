@@ -20,15 +20,27 @@ body {
   align-items: center;
   padding: 14px 0px;
 }
+#header #navbar .navbar__left img:hover {
+  cursor: pointer;
+}
+#header #navbar .navbar__right {
+  display: flex;
+  align-items: center;
+}
 #header #navbar .navbar__right a {
   font-family: "Work Sans", sans-serif;
+  display: block;
   gap: 12px;
-  padding: 0px 20px;
+  padding: 10px 20px;
   font-size: 16px;
   color: white;
   text-decoration: none;
   font-weight: 600;
   margin-right: 10px;
+  transition: all 0.3s ease;
+}
+#header #navbar .navbar__right a:hover {
+  transform: scale(0.95);
 }
 #header #navbar .navbar__right button {
   background-color: #A259FF;
@@ -41,6 +53,11 @@ body {
   font-size: 16px;
   font-weight: 600;
   font-family: "Work Sans", sans-serif;
+  transition: all 0.3s ease;
+}
+#header #navbar .navbar__right button:hover {
+  cursor: pointer;
+  transform: scale(0.95);
 }
 #header #navbar .navbar__right button div {
   display: flex;

@@ -14,19 +14,31 @@
             align-items: center ;
             padding: 14px 0px;
 
+            img{
+                &:hover{
+                    cursor: pointer;
+                }
+            }
         }
 
         .navbar__right {
+            display: flex;
+            align-items: center;
 
             a {
                 font-family: $font;
+                display: block;
                 gap: 12px;
-                padding: 0px 20px;
+                padding: 10px 20px;
                 font-size: 16px;
                 color: white;
                 text-decoration: none;
                 font-weight: 600;
                 margin-right: 10px;
+                transition: all 0.3s ease;
+                &:hover{
+                    transform: scale(0.95);
+                }
             }
 
             button{
@@ -40,6 +52,11 @@
                 font-size: 16px;
                 font-weight: 600;
                 font-family: $font;
+                transition: all 0.3s ease;
+                &:hover{
+                    cursor: pointer;
+                    transform: scale(0.95);
+                }
                 div{
                     display: flex;
                     align-items: center;
