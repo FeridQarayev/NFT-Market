@@ -1,0 +1,101 @@
+@media only screen and (max-width: 1280px) {
+    #header {
+        
+
+
+        #navbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            height: 54px;
+
+            .navbar__right {
+                a {
+                    display: none;
+
+                }
+
+                button {
+                    display: none;
+                }
+
+                .hamburger {
+                    display: block;
+                }
+            }
+        }
+
+        #intro {
+            width: 690px !important;
+            height: 381px !important;
+
+
+            .intro__left {
+                width: 330px;
+                height: 138px;
+
+                .intro__left__top {
+                    & p:first-child {
+                        font-size: 38px !important;
+                        line-height: 120% !important;
+                        width: 330px !important;
+                    }
+
+                    & p:last-child {
+                        font-size: 16px !important;
+                        line-height: 140% !important;
+
+                    }
+                }
+
+                .intro__left__bottom__bottom__item {
+                    p {
+                        font-weight: 700 !important;
+                        font-size: 22px !important;
+
+                    }
+
+                    & p:last-child {
+                        font-weight: 400 !important;
+                        font-size: 16px !important;
+                        width: 90px;
+                    }
+
+
+                }
+
+
+            }
+
+            .intro__right {
+
+                img {
+                    width: 330px !important;
+                    height: 330px !important;
+                }
+            }
+        }
+
+        .trending__text{
+            width: 690px;
+            margin-top: 200px;
+            h1{
+                font-size: 28px;
+            }
+
+            p{
+                font-size: 16px;
+            }
+        }
+
+        .trending__main__right{
+            display: none;
+        }
+
+    }
+
+
+
+}
