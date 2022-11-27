@@ -464,3 +464,215 @@ body {
     height: 13px;
   }
 }
+@media only screen and (max-width: 834px) {
+  #footer {
+    width: 834px;
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+  }
+  #footer .subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 10px;
+    width: 375px;
+    height: 645px;
+    background-color: #2B2B2B;
+  }
+  #footer .subscribe__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px;
+    width: 315px;
+    height: 565px;
+    border-radius: 20px;
+    background-color: #2B2B2B;
+  }
+  #footer .subscribe__card__left {
+    width: 315px;
+    height: 255px;
+    border-radius: 20px;
+  }
+  #footer .subscribe__card__left__tableimg {
+    width: 315px;
+    height: 255px;
+    border-radius: 20px;
+  }
+  #footer .subscribe__card__right {
+    flex-direction: column;
+    padding: 0px;
+    gap: 10px;
+    width: 315px;
+    height: 280px;
+  }
+  #footer .subscribe__card__right__title {
+    width: 315px;
+    height: 78px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+  }
+  #footer .subscribe__card__right__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    width: 315px;
+    height: 44px;
+  }
+  #footer .subscribe__card__right button {
+    width: 315px;
+    height: 46px;
+  }
+  #footer .subscribe__card__right input {
+    padding: 16px 20px;
+    width: 315px;
+    height: 46px;
+    border: 1px solid #858584;
+    margin-top: 30px;
+  }
+  #footer .footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 195px;
+    gap: 30px;
+    background-color: #3B3B3B;
+    width: 375px;
+    height: 776px;
+  }
+  #footer .footer__up {
+    padding: 0px;
+    gap: 30px;
+    flex-direction: column;
+    width: 315px;
+    height: 633px;
+  }
+  #footer .footer__up__left {
+    padding: 0px;
+    gap: 20px;
+    flex-direction: column;
+    width: 315px;
+    height: 185px;
+  }
+  #footer .footer__up__left__logo {
+    width: 243.41px;
+    height: 32px;
+  }
+  #footer .footer__up__left__info {
+    padding: 0px;
+    gap: 20px;
+    flex-direction: column;
+    width: 315px;
+    height: 133px;
+  }
+  #footer .footer__up__left__info p {
+    font-weight: 400;
+    font-size: 16px;
+    width: 315px;
+    height: 44px;
+  }
+  #footer .footer__up__left__info__community {
+    gap: 15px;
+    width: 315px;
+    height: 69px;
+    flex-direction: column;
+  }
+  #footer .footer__up__left__info__community p {
+    width: 315px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+  #footer .footer__up__left__info__community__icons {
+    gap: 10px;
+    flex-direction: row;
+    width: 158px;
+    height: 32px;
+  }
+  #footer .footer__up__left__info__community__icons svg {
+    width: 32px;
+    height: 32px;
+  }
+  #footer .footer__up__middle {
+    gap: 20px;
+    flex-direction: column;
+    width: 315px;
+    height: 161px;
+  }
+  #footer .footer__up__middle__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    width: 315px;
+    height: 35px;
+  }
+  #footer .footer__up__middle__body {
+    gap: 20px;
+    flex-direction: column;
+    width: 315px;
+    height: 106px;
+  }
+  #footer .footer__up__right {
+    gap: 20px;
+    flex-direction: column;
+    width: 315px;
+    height: 227px;
+  }
+  #footer .footer__up__right__title {
+    width: 315px;
+    height: 35px;
+    font-size: 22px;
+  }
+  #footer .footer__up__right__body {
+    gap: 20px;
+    flex-direction: column;
+    width: 315px;
+    height: 172px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  #footer .footer__up__right__body p {
+    font-size: 16px;
+    line-height: 140%;
+    width: 315px;
+    height: 44px;
+  }
+  #footer .footer__up__right__body button {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 315px;
+    height: 46px;
+    padding: 0px 50px;
+  }
+  #footer .footer__up__right__body input {
+    border: 1px solid #858584;
+    width: 315px;
+    height: 46px;
+    padding: 16px 20px;
+  }
+  #footer .footer__down {
+    gap: 20px;
+    flex-direction: column;
+    width: 315px;
+    height: 33px;
+  }
+  #footer .footer__down hr {
+    height: 0px;
+    width: 315px;
+    border: 1px solid #858584;
+  }
+  #footer .footer__down p {
+    width: 315px;
+    height: 13px;
+    font-size: 12px;
+    line-height: 110%;
+  }
+}
