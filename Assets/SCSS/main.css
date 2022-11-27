@@ -255,7 +255,7 @@ body {
   color: #CCCCCC;
 }
 
-@media only screen and (max-width: 835px) {
+@media only screen and (max-width: 1280px) {
   #footer {
     width: 834px;
     display: flex;
