@@ -330,6 +330,10 @@ body {
     justify-content: center;
     align-items: center;
   }
+  #footer .subscribe__card__right button:hover {
+    transform: scale(0.95);
+    cursor: pointer;
+  }
   #footer .subscribe__card__right input {
     padding: 16px 20px;
     gap: 12px;
@@ -443,6 +447,10 @@ body {
     height: 60px;
     left: 241px;
   }
+  #footer .footer__up__right__body button:hover {
+    transform: scale(0.95);
+    cursor: pointer;
+  }
   #footer .footer__up__right__body input {
     width: 420px;
     height: 60px;
@@ -527,6 +535,10 @@ body {
   #footer .subscribe__card__right button {
     width: 315px;
     height: 46px;
+  }
+  #footer .subscribe__card__right button:hover {
+    transform: scale(0.95);
+    cursor: pointer;
   }
   #footer .subscribe__card__right input {
     padding: 16px 20px;
@@ -651,6 +663,10 @@ body {
     width: 315px;
     height: 46px;
     padding: 0px 50px;
+  }
+  #footer .footer__up__right__body button:hover {
+    transform: scale(0.95);
+    cursor: pointer;
   }
   #footer .footer__up__right__body input {
     border: 1px solid #858584;

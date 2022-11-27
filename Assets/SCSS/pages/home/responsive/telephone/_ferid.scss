@@ -52,6 +52,10 @@
                     button{
                         width: 315px;
                         height: 46px;
+                        &:hover{
+                            transform: scale(0.95);
+                            cursor: pointer;
+                        }
                     }
                     input{
                         padding: 16px 20px;
@@ -174,6 +178,10 @@
                             width: 315px;
                             height: 46px;
                             padding: 0px 50px;
+                            &:hover{
+                                transform: scale(0.95);
+                                cursor: pointer;
+                            }
                         }
                         input{
                             border: 1px solid #858584;
