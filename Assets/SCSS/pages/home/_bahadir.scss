@@ -380,7 +380,35 @@
 
 
         }
-        
+        .howitworks{
+            &__nav{
+                padding-top: 80px;
+                width: $nav-width;
+                
+                margin: 0 auto;
+              
+                
+                h3{
+                    font-family: $font;
+                    line-height: 45.6px;
+                    font-weight: 600;
+                    font-size: 38px;
+                    color: #FFFFFF;
+                }
+                p{
+                    padding-top: 10px;
+                    font-family: $nav-width;
+                    font-family: $font;
+                    line-height: 35.2px;
+                    font-weight: 400;
+                    font-size: 22px;
+                    color: #FFFFFF;
+                                      
+                }
+                
+            }
+            
+        }
         
     }
     

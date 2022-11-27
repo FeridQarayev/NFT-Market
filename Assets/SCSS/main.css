@@ -299,3 +299,24 @@ body {
   display: flex;
   justify-content: space-between;
 }
+#middledown .howitworks__nav {
+  padding-top: 80px;
+  width: 1050px;
+  margin: 0 auto;
+}
+#middledown .howitworks__nav h3 {
+  font-family: "Work Sans", sans-serif;
+  line-height: 45.6px;
+  font-weight: 600;
+  font-size: 38px;
+  color: #FFFFFF;
+}
+#middledown .howitworks__nav p {
+  padding-top: 10px;
+  font-family: 1050px;
+  font-family: "Work Sans", sans-serif;
+  line-height: 35.2px;
+  font-weight: 400;
+  font-size: 22px;
+  color: #FFFFFF;
+}
