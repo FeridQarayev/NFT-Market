@@ -3,7 +3,7 @@
     // Hersey bunun icinde yazilacaq
     
         @include centerX;
-        background-color: bisque;
+        background-color: #2B2B2B;
 
     .content {
         width: 1280px;
@@ -230,6 +230,7 @@
             }
             .card_category_all{
                 margin-top: 60px;
+                margin-bottom: 80px;
                 flex-direction: row;
                 align-items: flex-start;
                 padding: 0px;
@@ -251,13 +252,11 @@
                     .card_category{
                        
                         display: flex;
-                        flex-direction: column;
-                       
+                        flex-direction: column;                    
                         width: 240px;
                         height: 316px;
                         align-items: center;
-                        padding: 0px;
-                        
+                        padding: 0px;                       
                         border-radius: 20px;
                         
 
@@ -267,7 +266,7 @@
                             height: 240px;
                             border-radius: 20px 20px 0px 0px;
                             .card_category_top_icon{
-                                display: flex;
+                                display: flex;  
                                 flex-direction: row;
                                 justify-content: center;
                                 align-items: center;
