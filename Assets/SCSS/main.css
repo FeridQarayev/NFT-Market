@@ -251,3 +251,51 @@ body {
   font-size: 16px;
   color: #2B2B2B;
 }
+#middledown .mashroom__content__right {
+  width: 295px;
+  height: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#middledown .mashroom__content__right__timer {
+  padding: 30px;
+  height: 144px;
+  width: 295px;
+}
+#middledown .mashroom__content__right__timer__div {
+  height: 84px;
+  width: 235px;
+}
+#middledown .mashroom__content__right__timer__div #timerp {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13.2px;
+  font-family: "Work Sans", sans-serif;
+}
+#middledown .mashroom__content__right__timer__div__hours {
+  display: flex;
+  justify-content: space-between;
+  width: 235px;
+  height: 49px;
+}
+#middledown .mashroom__content__right__timer__div__hours #hours {
+  line-height: 45.6px;
+  font-weight: 700;
+  font-size: 38px;
+  font-family: "Work Sans", sans-serif;
+  color: #FFFFFF;
+}
+#middledown .mashroom__content__right__timer__div__hours #bol {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 39.2px;
+  font-family: "Work Sans", sans-serif;
+  color: #FFFFFF;
+}
+#middledown .mashroom__content__right__timer__div__seconds {
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
