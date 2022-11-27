@@ -1,3 +1,18 @@
+@keyframes galaxy {
+    0% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+    }
+    50% {
+      box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+      transform: translatey(-20px);
+    }
+    100% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+    }
+  }
+
 #footer{
     @include centerY;
     flex-direction: column;
@@ -23,6 +38,12 @@
                 border-radius: 20px;
                 width: 425px;
                 height: 310px;
+                transition: all 5s;
+                &__img{
+                    border-radius: 20px;
+                    animation: galaxy 5s infinite;
+                    transition: all 5s;
+                }
                 &__tableimg{
                     display: none;
                 }
@@ -95,6 +116,7 @@
         padding: 40px 195px;
         display: flex;
         gap: 30px;
+        transition: all 1s;
         &__up{
             width: 1049.41px;
             height: 191px;

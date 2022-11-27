@@ -8,6 +8,35 @@ body {
   background-color: #2B2B2B;
 }
 
+@-webkit-keyframes galaxy {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+@keyframes galaxy {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
 #footer {
   display: flex;
   align-items: center;
@@ -37,6 +66,13 @@ body {
   border-radius: 20px;
   width: 425px;
   height: 310px;
+  transition: all 5s;
+}
+#footer .subscribe__card__left__img {
+  border-radius: 20px;
+  -webkit-animation: galaxy 5s infinite;
+          animation: galaxy 5s infinite;
+  transition: all 5s;
 }
 #footer .subscribe__card__left__tableimg {
   display: none;
@@ -109,6 +145,7 @@ body {
   padding: 40px 195px;
   display: flex;
   gap: 30px;
+  transition: all 1s;
 }
 #footer .footer__up {
   width: 1049.41px;
