@@ -320,3 +320,47 @@ body {
   font-size: 22px;
   color: #FFFFFF;
 }
+#middledown .howitworks__cards {
+  padding-top: 48px;
+  margin: 0 auto;
+  gap: 30px;
+  display: flex;
+  width: 1050px;
+  height: 439px;
+}
+#middledown .howitworks__cards__1 {
+  background-color: #3B3B3B;
+  border-radius: 20px;
+  width: 330px;
+  height: 439px;
+}
+#middledown .howitworks__cards__1__img {
+  margin: auto;
+  width: 250px;
+  height: 250px;
+}
+#middledown .howitworks__cards__1__content {
+  padding-top: 20px;
+  margin: auto;
+  width: 270px;
+  height: 129px;
+}
+#middledown .howitworks__cards__1__content #card1 {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30.8px;
+  color: #FFFFFF;
+}
+#middledown .howitworks__cards__1__content #card1p {
+  padding-top: 10px;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+}
