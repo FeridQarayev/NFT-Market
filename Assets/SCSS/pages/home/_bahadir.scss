@@ -52,7 +52,26 @@
         }
     }
     
-   
+    &__right__button{
+        border-radius: 20px;
+        width: 187px;
+        height: 60px;          
+        top: 31px;
+        left: 100px;
+        gap:12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0,50px,0,50px;
+        border: #A259FF solid 2px;
+        #sa{
+            font-family: $font;
+            font-size: 16px;
+            line-height: 22.4px;
+            font-weight: 600;
+        }
+        }
             
 
 
