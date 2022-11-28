@@ -1,4 +1,277 @@
-#header{
+#header {
     // Hersey bunun icinde yazilacaq
 
+    #navbar {
+
+
+        padding: 20px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        .navbar__left {
+            display: flex;
+            align-items: center;
+            padding: 14px 0px;
+
+            img {
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .navbar__right {
+            display: flex;
+            align-items: center;
+
+            .hamburger {
+                display: none;
+            }
+
+            a {
+                font-family: $font;
+                display: block;
+                gap: 12px;
+                padding: 10px 20px;
+                font-size: 16px;
+                color: white;
+                text-decoration: none;
+                font-weight: 600;
+                margin-right: 10px;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    transform: scale(0.95);
+                }
+            }
+
+            button {
+                background-color: #A259FF;
+                padding: 0px 30px;
+                border: none;
+                color: white;
+                border-radius: 20px;
+                text-align: center;
+                height: 60px;
+                font-size: 16px;
+                font-weight: 600;
+                font-family: $font;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    cursor: pointer;
+                    transform: scale(0.95);
+                }
+
+                div {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        margin-right: 12px;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    .container {
+        display: flex;
+        width: 55%;
+        margin: auto;
+    }
+
+    #intro {
+        padding: 80px 0px;
+        gap: 30px;
+        display: flex;
+
+        #resp-image {
+            width: 315px;
+            height: 315px;
+            display: none;
+        }
+
+        .intro__left {
+            width: 510px;
+            height: 222px;
+
+            .intro__left__top {
+                & p:first-child {
+                    font-family: $font;
+                    font-size: 67px;
+                    font-weight: 600;
+                    color: white;
+                    line-height: 110%;
+
+                }
+
+                & p:last-child {
+                    margin-top: 20px;
+                    font-family: $font;
+                    font-size: 22px;
+                    font-weight: 400;
+                    color: white;
+                    line-height: 160%;
+                    text-transform: capitalize;
+
+                }
+            }
+        }
+
+        .intro__left__bottom__top {
+            button {
+                height: 60px;
+                // width: 224px;
+                padding: 0px 50px;
+                border-radius: 20px;
+                color: white;
+                background-color: #A259FF;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                font-family: $font;
+                gap: 12px;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 140%;
+                margin-top: 30px;
+                border: none;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    cursor: pointer;
+                    transform: scale(0.95);
+
+                }
+            }
+        }
+
+        .intro__left__bottom__bottom {
+            margin-top: 30px;
+            gap: 70px;
+            display: flex;
+            align-items: flex-start;
+
+            .intro__left__bottom__bottom__item {
+                p {
+                    font-family: 'Space Mono', monospace;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 28px;
+                    line-height: 140%;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    text-transform: capitalize;
+
+                }
+
+                & p:last-child {
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 160%;
+                    text-transform: capitalize;
+                }
+            }
+
+
+        }
+
+        .intro__right {
+            img {
+                width: 510px;
+                height: 510px;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .trending__text {
+        width: 1046px;
+        height: 91px;
+        margin-top: 100px;
+
+        h1 {
+            font-family: $font;
+            color: white;
+            font-weight: 600;
+            font-size: 38px;
+            line-height: 120%;
+            text-transform: capitalize;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-family: $font;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 160%;
+            text-transform: capitalize;
+            color: white;
+
+        }
+    }
+
+    .trending__main {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+
+        img {
+            transition: all 0.3s ease;
+
+            &:hover {
+                transform: scale(0.95);
+                cursor: pointer;
+            }
+        }
+
+
+        .trending__main__left__middle,
+        .trending__main__middle__middle,
+        .trending__main__right__middle {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px 0px;
+        }
+
+        .trending__main__left__bottom,
+        .trending__main__middle__bottom,
+        .trending__main__right__bottom {
+            h1 {
+                font-family: $font;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 140%;
+                text-transform: capitalize;
+                color: white;
+                margin-bottom: 10px;
+            }
+
+            div {
+                display: flex;
+                align-items: center;
+
+                span {
+                    font-family: $font;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 140%;
+                    color: white;
+                    margin-left: 12px;
+                }
+            }
+        }
+
+    }
 }
