@@ -9,7 +9,7 @@
         margin: auto;
         flex-direction: row;
         align-items: flex-end;
-        flex-direction: row;
+        
         gap:100px;
         padding:0;
         margin-top: 80px;
@@ -53,6 +53,7 @@
     }
     
     &__right__button{
+        transition: 0.3s;
         border-radius: 20px;
         width: 187px;
         height: 60px;          
@@ -81,20 +82,23 @@
     }
     .middledown__middle{
         display: flex;
-        
+        background-color: #858584;
         width: $nav-width;
         height: 469px;
         margin: auto;
         gap:30px;
+        
 
 
         &__nftcard1{
+
             background-color: #3B3B3B;
             width: 330px;
             height: 469px;
             border-radius: 20px;
             margin-top: 60px;
-
+            transition: 0.3s;
+            
             &__footer{
                 width: 330px;
                 height: 173px;
@@ -245,7 +249,7 @@
     }
     .mashroom{
         
-        background-image:image();
+        background-image: url("Keemun_psychodelic_mushrooms_microcosmos_noisy_background_4k_855c7113-e1f7-4547-ac01-3a82c0027f43.png");
         padding-top: 360px;
         margin: 0 auto;
         &__content{
@@ -261,6 +265,7 @@
                 width: 775px;
                 height: 220px;
                 &__btn{
+                    
                     align-items: center;
                     justify-content: center;
                     display: flex;
@@ -297,6 +302,7 @@
                 
             }
             &__btn2{
+                transition: 0.3s;
                 align-items: center;
                 justify-content: center;
                 display: flex;
@@ -415,6 +421,7 @@
                 width: $nav-width;
                 height: 439px;
                 &__1{
+                    transition: 0.3s;
                     background-color: #3B3B3B;
                     border-radius: 20px;
                     width: 330px;
@@ -453,6 +460,26 @@
 
                 }
             
+            }
+        }
+
+        .middledown{
+            &__middle__nftcard1:hover{
+                transform: scale(0.95);
+            }
+        }
+        .middledown__nav{
+            &__right__button:hover{
+                transform: scale(0.95);
+            }
+        }
+        .mashroom{
+            &__content__left__btn:hover{
+                cursor: pointer;
+            }
+            &__content__left__btn2:hover{
+                cursor: pointer;
+                transform: scale(0.95);
             }
         }
         
