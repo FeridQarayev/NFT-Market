@@ -73,7 +73,6 @@ body {
 }
 #middledown .middledown__middle {
   display: flex;
-  background-color: #858584;
   width: 1050px;
   height: 469px;
   margin: auto;
@@ -302,6 +301,12 @@ body {
   display: flex;
   justify-content: space-between;
 }
+#middledown .mashroom__content__right__timer__div__seconds #sec {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.2px;
+  font-family: "Work Sans", sans-serif;
+}
 #middledown .howitworks__nav {
   padding-top: 80px;
   width: 1050px;
@@ -369,9 +374,11 @@ body {
   line-height: 22.4px;
 }
 #middledown .middledown__middle__nftcard1:hover {
+  cursor: pointer;
   transform: scale(0.95);
 }
 #middledown .middledown__nav__right__button:hover {
+  cursor: pointer;
   transform: scale(0.95);
 }
 #middledown .mashroom__content__left__btn:hover {
