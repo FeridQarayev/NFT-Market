@@ -1,4 +1,496 @@
 #middledown{
-    // Hersey bunun icinde yazilacaq
+   
+    .middledown__nav{
+       
+
+        width: $nav-width;
+        height: 91px;
+        display: flex;
+        margin: auto;
+        flex-direction: row;
+        align-items: flex-end;
+        
+        gap:100px;
+        padding:0;
+        margin-top: 80px;
+
+        &__left {
+            width: 763px;
+            height: 91px;
+            flex-direction: column;
+            gap: 10px;
+            align-items: flex-start;
+
+
+            &__first__div{
+                width: 763px;
+                height: 46px;
+              &__h3 { 
+               font-style: normal;
+               font-weight: 600;
+               font-size: 38px;
+               color: #FFFFFF;
+               line-height:45.6px;
+               font-family: $font;
+               text-transform: capitalize;}
+        }
+        &__2__text{
+            padding-top: 10px;
+            width: 763px;
+            height: 35px;
+            font-family: $font;
+            font-style: normal;
+            font-size: 22px;
+            line-height: 35.2px;
+            color: #FFFFFF;
+            text-transform: capitalize;
+            
+            
+
+
+
+        }
+    }
     
-}
+    &__right__button{
+        transition: 0.3s;
+        border-radius: 20px;
+        width: 187px;
+        height: 60px;          
+        top: 31px;
+        left: 100px;
+        gap:12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0,50px,0,50px;
+        border: #A259FF solid 2px;
+        #sa{
+            font-family: $font;
+            font-size: 16px;
+            line-height: 22.4px;
+            font-weight: 600;
+        }
+        }
+            
+
+
+        
+
+        
+    }
+    .middledown__middle{
+        display: flex;
+        
+        width: $nav-width;
+        height: 469px;
+        margin: auto;
+        gap:30px;
+        
+
+
+        &__nftcard1{
+
+            background-color: #3B3B3B;
+            width: 330px;
+            height: 469px;
+            border-radius: 20px;
+            margin-top: 60px;
+            transition: 0.3s;
+            
+            &__footer{
+                width: 330px;
+                height: 173px;
+                padding-top: 20px;
+                padding-left: 30px;
+                gap:25px;
+                
+
+                &__top{
+                    height: 60px;
+                    width: 270px;
+                    gap: 5px;
+                   
+
+                    &__h5{
+                        width: 270px;
+                        height: 31px;
+                        
+                        
+                        h5{
+                            line-height: 30.8px;    
+                            font-family: $font;
+                            font-weight: 600;
+                            font-size: 22px;
+                        }
+                    }
+                    &__div{
+                        padding-top: 5px;
+                        display: flex;
+                        &__nft{
+                            
+                            margin-left: 12px;
+                            padding-bottom: 2px;
+                            #avtr{
+                                font-family: $font;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 22.4px;
+                            }
+                        }
+                    }
+
+                }
+                &__down{
+                    display: flex;
+                    margin-top: 25px;
+                    width: 270px;
+                    height: 43px;
+                    &__left{
+                        
+                        width: 135px;
+                        height: 43px;
+                        column-gap: 8px;
+
+                        div{
+
+                            width: 114px;
+                            height: 13px;
+                            margin-bottom: 8px;
+                            
+                            p{
+                                font-family: $font;
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 13.2px;
+                                color: #858584;
+                            }
+
+
+                        }
+                        &__div{
+                            width: 114px;
+                            height: 22px;
+                            
+                            
+                            
+                            #p{
+
+                                line-height: 22.4px;
+                                font-family: $font;
+                                font-size: 22px;
+                                font-weight: 400;
+                                color: #FFFFFF;
+
+                            }
+
+                        }
+
+                        
+                    }
+                    &__right{
+                        width: 135px;
+                        height: 43px;
+                        &__top{
+                            
+                            text-align: right;
+                            width: 135px;
+                            height: 13px;
+                            &__p{
+                                
+                                font-family: $font;
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 13.2px;
+                                color: #858584;
+                            }
+                        }
+                        &__div{
+                            padding-top: 8px;
+                            text-align: right;
+                            width: 135px;
+                            height: 22px;
+                            #eth{
+                                font-size: 22px;
+                                font-family: $font;
+                                font-weight: 400px;
+                                line-height: 22.4px;
+                                color: #FFFFFF;
+
+                            }
+                        }
+                    }
+                    
+
+
+               
+
+
+            }
+
+
+           
+
+            
+                    
+                    }
+                
+            
+
+        
+
+    }
+
+
+
+        
+
+    }
+    .mashroom{
+        
+        
+        padding-top: 360px;
+        margin: 0 auto;
+        &__content{
+            margin: auto;
+            display: flex;
+            width: 1050px;
+            height: 220px;
+            
+            &__left{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 775px;
+                height: 220px;
+                &__btn{
+                    
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    height: 44px;   
+                    width: 151px;
+                    border-radius: 20px;
+                    background-color: #3B3B3B;
+                    &__text
+                    {
+                    margin-left: 12px;
+                    width: 75px;    
+                    height: 22px;
+                    &__p{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 22.4px;
+                    font-family: $font;
+                    color: #FFFFFF;
+                        }
+                    }
+                    }
+                    &__text{
+                           height:56px;
+                           
+                           
+                           &__h2{
+                           font-family: $font;
+                           font-weight: 600;
+                           font-size: 51px;
+                           line-height: 56.1px;
+                           color: #FFFFFF;
+
+                }
+                
+            }
+            &__btn2{
+                transition: 0.3s;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                background-color:#FFFFFF;
+                height: 60px;
+                width: 198px;   
+                border-radius: 20px;
+                &__p{
+                    margin-left: 12px;
+                    font-family: $font;
+                    line-height: 22.4px;
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: #2B2B2B;
+                }
+                
+            }
+            
+
+            }
+            &__right{
+                width: 295px;
+                height: 220px;
+                
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+                &__timer{
+                    padding: 30px;
+                    height: 144px;  
+                    width: 295px;
+                    &__div{
+                        height:84px ;
+                        width: 235px;
+                        #timerp{
+                            color: #FFFFFF;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 13.2px;
+                            font-family: $font;
+                        }
+                        &__hours{
+
+                            display: flex;
+                            justify-content: space-between;
+                            width: 235px;   
+                            height: 49px;
+                            #hours{
+                                line-height: 45.6px;
+                                font-weight: 700;
+                                font-size: 38px;
+                                font-family: $font;
+                                color: #FFFFFF;
+                            }
+                            #bol{
+                                font-weight: 700;
+                                font-size: 28px;
+                                line-height: 39.2px;
+                                font-family: $font;
+                                color: #FFFFFF;
+                            }
+                            
+
+                        }
+                        &__seconds{
+                            color: #FFFFFF;
+                            display: flex;
+                            justify-content: space-between;
+                            #sec{
+                                font-size: 12px;
+                                font-weight: 400;
+                                line-height: 13.2px;
+                                font-family: $font ;
+                            }
+
+                            
+                        }
+
+                    }
+    
+                }
+
+            }
+            }
+            
+            
+            
+
+
+        }
+        .howitworks{
+            &__nav{
+                padding-top: 80px;
+                width: $nav-width;
+                
+                margin: 0 auto;
+              
+                
+                h3{
+                    font-family: $font;
+                    line-height: 45.6px;
+                    font-weight: 600;
+                    font-size: 38px;
+                    color: #FFFFFF;
+                }
+                p{
+                    padding-top: 10px;
+                    font-family: $nav-width;
+                    font-family: $font;
+                    line-height: 35.2px;
+                    font-weight: 400;
+                    font-size: 22px;
+                    color: #FFFFFF;
+                                      
+                }
+                
+            }
+            &__cards{
+                padding-top: 48px;
+                margin: 0 auto;
+                gap: 30px;
+                display: flex;
+                width: $nav-width;
+                height: 439px;
+                &__1{
+                    transition: 0.3s;
+                    background-color: #3B3B3B;
+                    border-radius: 20px;
+                    width: 330px;
+                    height: 439px;
+                    &__img{
+                        margin: auto;
+                        width: 250px;
+                        height: 250px;
+                    }
+                    &__content{
+                        padding-top: 20px;
+                        margin: auto;
+                        width: 270px;
+                        height: 129px;
+                        #card1{
+                            text-align: center;
+                            font-family: $font;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 22px;
+                            line-height: 30.8px;  
+                            color: #FFFFFF;                      
+                        }
+                        #card1p{
+                            padding-top: 10px;
+                            color: #FFFFFF;
+                            text-align:center ;
+                            font-family: $font;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 22.4px;                            
+                        }
+
+                    }
+
+                }
+            
+            }
+        }
+
+        .middledown{
+            &__middle__nftcard1:hover{
+                cursor: pointer;
+                transform: scale(0.95);
+            }
+        }
+        .middledown__nav{
+            &__right__button:hover{
+                cursor: pointer;
+                transform: scale(0.95);
+            }
+        }
+        .mashroom{
+            &__content__left__btn:hover{
+                cursor: pointer;
+            }
+            &__content__left__btn2:hover{
+                cursor: pointer;
+                transform: scale(0.95);
+            }
+        }
+        
+    }
+    
